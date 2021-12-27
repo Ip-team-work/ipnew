@@ -1,0 +1,84 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+ 	background-image: url(../resource/image/gondor.jpg);
+ 	background-position: center;
+ 	background-size: cover;
+ 	font-family: sans-serif;
+ 	margin-top: 100px;
+    margin-bottom: 100%;
+
+ }
+ #sign{
+	width: 700px;
+	background-color: rgb(0, 0, 0,0.6);
+	margin: auto;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.signUpmain{
+	width: 700px;
+	background-color: rgb(0, 0, 0,0.5);
+	margin: auto;
+	text-align: center;
+}
+form{
+	padding: 10px;
+}
+#headName{
+	width: 100%;
+	height: 100%;
+}
+
+.headName{
+margin-left: 30px;
+margin-top: 30px;
+width: 130px;
+color: blue;
+font-size: 18px;
+font-weight: 700;
+ }
+ 
+  .email{
+  	position: relative;
+  	left: 70px;
+  	top: -35px;
+  	line-height: 30px;
+  	width: 400px;
+  	border-radius: 3px;
+  	padding: 0 15px;
+
+  	font-size: 16px;
+  	color: #555;
+  }
+
+  .password{
+  	position: relative;
+  	left: -100px;
+  	top: -35px;
+  	line-height: 30px;
+  	border-radius: 3px;
+  	padding: 0 0px;
+  	font-size: 16px;
+  }
+  
+
+  button{
+  	background-color: limegreen;
+  	display: block;
+  	margin: 20px 0px 0px 20px;
+  	text-align: center;
+  	border-radius: 5px;
+  	border: 2px solid #366473;
+  	padding: 10px 110px;
+  	outline: none;
+  	color: white;
+  	cursor: pointer;
+  	transition: 0.25;
+
+  }
+ 
